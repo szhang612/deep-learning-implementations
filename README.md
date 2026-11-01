@@ -11,7 +11,7 @@ MIT 6.7960 *Deep Learning* (Fall 2024).
 
 | Notebook | What's inside |
 |---|---|
-| [`transformers_from_scratch.ipynb`](transformers.ipynb) | Attention, multi-head attention, and a transformer stack from scratch; a Vision Transformer on CIFAR-10; a word-level GPT on Tiny Shakespeare |
+| [`transformers.ipynb`](transformers.ipynb) | Attention, multi-head attention, and a transformer stack from scratch; a Vision Transformer on CIFAR-10; a word-level GPT on Tiny Shakespeare |
 | [`vae_and_diffusion.ipynb`](vae_and_diffusion.ipynb) | A VAE with latent-space traversals and a DDPM diffusion model on Fashion-MNIST |
 
 ---
@@ -20,15 +20,18 @@ MIT 6.7960 *Deep Learning* (Fall 2024).
 
 **Implemented:** attention with masking, multi-head attention, the transformer stack, ViT patch embedding, a word-level tokenizer, GPT token/positional embeddings with a causal mask, and the next-token cross-entropy loss with padding masked out.
 
+![ViT attention](assets/vit_attention.png)
 
 ## 2. VAE and diffusion on Fashion-MNIST
 
 **VAE** : implemented the reparameterization trick, the negative-ELBO loss (binary cross-entropy + closed-form Gaussian KL), and latent traversals. 
 
+![VAE latent traversals](assets/vae_latent_traversals.png)
 
 **DDPM** : implemented the closed-form forward noising process, the
 noise-prediction objective, and the ancestral reverse sampler using the Gaussian posterior.
 
+![DDPM trajectory](assets/diffusion_trajectory.png)
 
 ## References
 
