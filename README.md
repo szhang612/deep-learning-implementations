@@ -7,7 +7,9 @@ MIT 6.7960 [*Deep Learning*](https://ocw.mit.edu/courses/6-7960-deep-learning-fa
 > specifications and some implementation (parts of the training loops, the transformer's feed-forward/residual block, and
 > the ViT wrapper). The diffusion U-Net comes from
 > [`denoising-diffusion-pytorch`](https://github.com/lucidrains/denoising-diffusion-pytorch). Each notebook's
-> introduction lists exactly which parts I implemented. Use of AI tools: I used ChatGPT and Claude in two ways. While working through the problem sets, I consulted them for coding and conceptual questions (with the goal of understanding implementations myself). When preparing this repository, I used them to clean up and restructure my notebooks.
+> introduction lists exactly which parts I implemented.
+>
+> Use of AI tools: I used ChatGPT and Claude in two ways. While working through the problem sets, I consulted them for coding and conceptual questions (with the goal of understanding implementations myself). When preparing this repository, I used them to clean up, restructure, and polish writings in my notebooks.
 >
 > Course materials are © MIT OpenCourseWare, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
 
