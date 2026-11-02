@@ -1,7 +1,7 @@
 # Deep Learning Implementations in PyTorch
 
 PyTorch implementations of transformers and deep generative models, written while self-studying
-MIT 6.7960 *Deep Learning* (Fall 2024).
+MIT 6.7960 [*Deep Learning*](https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/) (Fall 2024).
 
 > **Attribution.** These notebooks contain my solutions to course problem sets. The course provided the problem
 > specifications and some implementation (parts of the training loops, the transformer's feed-forward/residual block, and
